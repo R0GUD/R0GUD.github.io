@@ -3,6 +3,7 @@ margin: 0px;
 fontfamily: Arial, Helvetica, sans-serif;
 text-align: left;
 font-size: 12px;
+overflow-x: hidden;
 }
 #main{
 width: 100%;
@@ -822,5 +823,243 @@ font-style: normal;
 font-weight: 700;
 font-size: 17px;
 line-height: 162.7%;
+color: #324950;
+}
+#Cus_banner{
+position: absolute;
+width: 100%;
+height: 480px;
+left: 0px;
+top: 122px;
+}
+#Cus_bg{
+position: absolute;
+width: 100%;
+height: 900px;
+left: 0px;
+top: 602px;
+background: #e9e9e9;
+}
+#Cus_head{
+position: absolute;
+width: 221px;
+height: 63px;
+left: 25%;
+top: 50px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 142.7%;
+color: #324950;
+}
+#Cus_main{
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+color: #324950;
+}
+#Cus_caption1{
+position: absolute;
+width: 178px;
+height: 26px;
+left: 25%;
+top: 210.5px;
+}
+#Cus_input1{
+position: absolute;
+width: 20%;
+height: 30px;
+left: 25%;
+top: 236px;
+}
+#Cus_caption2{
+position: absolute;
+width: 178px;
+height: 26px;
+left: 25%;
+top: 300px;
+}
+#Cus_input2{
+position: absolute;
+width: 20%;
+height: 30px;
+left: 25%;
+top: 325px;
+}
+#Cus_caption3{
+position: absolute;
+width: 178px;
+height: 26px;
+left: 25%;
+top: 390px;
+}
+#Cus_input3{
+position: absolute;
+width: 20%;
+height: 30px;
+left: 25%;
+top: 415px;
+}
+#Cus_caption4{
+position: absolute;
+width: 178px;
+height: 26px;
+left: 25%;
+top: 480px;
+}
+#Cus_input4{
+position: absolute;
+width: 20%;
+height: 30px;
+left: 25%;
+top: 505px;
+}
+#Cus_caption5{
+position: absolute;
+width: 178px;
+height: 26px;
+left: 25%;
+top: 570px;
+}
+#Cus_input5{
+position: absolute;
+width: 20%;
+height: 30px;
+left: 25%;
+top: 595px;
+}
+#Cus_caption6{
+position: absolute;
+width: 178px;
+height: 26px;
+left: 25%;
+top: 660px;
+}
+#Cus_input6{
+position: absolute;
+width: 20%;
+height: 30px;
+left: 25%;
+top: 685px;
+}
+#Cus_caption7{
+position: absolute;
+width: 178px;
+height: 26px;
+left: 25%;
+top: 750px;
+}
+#Cus_input7{
+position: absolute;
+width: 20%;
+height: 30px;
+left: 25%;
+top: 775px;
+}
+#Cus_caption8{
+position: absolute;
+width: 178px;
+height: 26px;
+left: 55%;
+top: 210.5px;
+}
+#Cus_input8{
+position: absolute;
+width: 20%;
+height: 30px;
+left: 55%;
+top: 236px;
+}
+#Cus_caption9{
+position: absolute;
+width: 178px;
+height: 26px;
+left: 55%;
+top: 300px;
+}
+#Cus_input9{
+position: absolute;
+width: 20%;
+height: 30px;
+left: 55%;
+top: 325px;
+}
+#Cus_caption10{
+position: absolute;
+width: 178px;
+height: 26px;
+left: 55%;
+top: 390px;
+}
+#Cus_input10{
+position: absolute;
+width: 20%;
+height: 300px;
+left: 55%;
+top: 415px;
+}
+#Cus_caption11{
+position: absolute;
+width: 178px;
+height: 26px;
+left: 55%;
+top: 750px;
+}
+#Cus_input11{
+position: absolute;
+width: 5%;
+height: 30px;
+left: 61%;
+top: 775px;
+}
+#Cus_image11{
+position: absolute;
+left: 55%;
+top: 775px
+}
+#Cus_button{
+position: absolute;
+left: 43%;
+top: 825px;
+}
+#Cus_address_head{
+position: absolute;
+width: 288px;
+height: 29px;
+left: 42%;
+top: 1550px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 142.7%;
+text-align: center;
+color: #57984C
+}
+#Cus_address_line{
+position: absolute;
+width: 183px;
+height: 1px;
+left: 45%;
+top: 1590px;
+}
+#Cus_address_text{
+position: absolute;
+width: 288px;
+height: 29px;
+left: 42%;
+top: 1615px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+text-align: center;
 color: #324950;
 }

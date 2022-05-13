@@ -1,134 +1,15 @@
-body{
-margin: 0px;
-fontfamily: Arial, Helvetica, sans-serif;
-text-align: left;
-font-size: 12px;
-overflow-x: hidden;
-}
-#main{
-width: 100%;
-}
-#banner{
-position: absolute;
-width: 100%;
-height: 850px;
-left: 0px;
-top: 0px;
-background-image: url(../img/bg.png);
-}
-#bannertext{
-position: absolute;
-/*width: 804px;*/
-width: 50%;
-height: 68px;
-/*left: 558px;*/
-left: 25%;
-top: 362px;
-font-family: 'Roboto Slab';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 142.7%;
-/* or 68px */
-text-align: center;
-color: #735440;
-}
-#bannerbutton{
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 16px 31px;
-position: absolute;
-/*width: 160px;*/
-width: 10%;
-height: 55px;
-/*left: 880px;*/
-left: 45%;
-top: 550px;
-background: #57984C;
-border: None;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 142.7%;
-/* identical to box height, or 23px */
-text-align: center;
-letter-spacing: 0.07em;
-text-transform: uppercase;
-color: #FFFFFF;
-}
-#logo{
-position: absolute;
-width: 226px;
-height: 113px;
-/*left: 388px;*/
-left: 10%;
-top: 20px;
-background: url(../img/Logo.png);
-mix-blend-mode: darken;
-}
-#search{
-border: None;
-background: None;
-position: absolute;
-/*width: 350px;*/
-width: 20%;
-height: 22px;
-/*left: 1165px;*/
-left: 60%;
-top: 20px;
-}
-#ico_search{
-background: None;
-position: absolute;
-width: 18px;
-height: 18px;
-/*left: 1497px;*/
-left: 80%;
-top: 21px;
-}
-#line{
-position: absolute;
-width: 20%;
-/*left: 1497px;*/
-left: 60%;
-top: 42px;
-}
-#head_links{
-position: absolute;
-/*width: 499px;*/
-width: 40%;
-height: 26px;
-/*left: 1016px;*/
-left: 55%;
-top: 91px;
-
-font-family: 'Heebo';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 26px;
-text-align: right;
-color: #324950;
-}
-#head_link{
-padding-left:10px;
-padding-right:10px;
-background: None;
-}
+@media (max-width: 1800px) {
 #products{
 position: absolute;
 width: 100%;
-height: 190px;
+height: 380px;
 left: 0px;
 top: 850px;
 background-image: url(../img/Rectangle 1.png);
 }
 #product{
 position: relative;
-top: 25px;
+padding-top: 25px;
 padding-left:3.5%;
 padding-right:3.5%;
 background: None;
@@ -136,26 +17,40 @@ background: None;
 #vision_mission{
 position: absolute;
 width: 100%;
-height: 1147.84px;
+height: 1337.84px;
 left: 0;
-top: 1011.16px;
+top: 1201.16px;
 background: #e9e9e9 url(../img/Union.png);
 }
+#main_active{
+position: absolute;
+width: 100%;
+height: 840px;
+left: 0px;
+top: 2330px;
+background: #e9e9e9;
+}
+}
+@media (max-width: 1600px) {
 #image_1{
 position: absolute;
+width:45%;
+height:35%;
 left: 50%;
 top: 0;
 }
 #image_2{
 position: absolute;
-left: 15%;
+width:45%;
+height:35%;
+left: 5%;
 top: 589px;
 }
 #vision_head{
 position: absolute;
 width: 197px;
 height: 91px;
-left: 18%;
+left: 8%;
 top: 100px;
 
 font-family: 'Roboto Slab';
@@ -167,9 +62,9 @@ color: #324950;
 }
 #vision_text{
 position: absolute;
-width: 25%;
-height: 132px;
-left: 18%;
+width: 35%;
+height: 162px;
+left: 8%;
 top: 200px;
 
 font-family: 'Roboto Slab';
@@ -195,7 +90,7 @@ color: #324950;
 }
 #mission_text{
 position: absolute;
-width: 25%;
+width: 35%;
 height: 132px;
 left: 60%;
 top: 750px;
@@ -207,19 +102,11 @@ font-size: 20px;
 line-height: 162.7%;
 color: #324950;
 }
-#main_active{
-position: absolute;
-width: 100%;
-height: 640px;
-left: 0px;
-top: 2158px;
-background: #e9e9e9;
-}
 #ma_head{
 position: absolute;
-width: 60%;
+width: 80%;
 height: 91px;
-left: 30%;
+left: 10%;
 top: 50px;
 
 font-family: 'Roboto Slab';
@@ -231,25 +118,31 @@ color: #324950;
 }
 #image_4{
 position: absolute;
-left: 20%;
+width:20%;
+height:28%;
+left: 5%;
 top: 150px;
 }
 #image_5{
 position: absolute;
-left: 45%;
+width:20%;
+height:25%;
+left: 40%;
 top: 130px;
 }
 #image_3{
 position: absolute;
-left: 65%;
+width:20%;
+height:22%;
+left: 75%;
 top: 170px;
 }
 #ma_caption_4{
 position: relative;
-width: 18%;
-height: 34px;
-left: 24%;
-top: 380px;
+width: 25%;
+height: 40px;
+left: 5%;
+top: 330px;
 
 font-family: 'Roboto Slab';
 font-style: normal;
@@ -260,10 +153,10 @@ color: #57984C;
 }
 #ma_caption_5{
 position: absolute;
-width: 18%;
-height: 34px;
-left: 46%;
-top: 380px;
+width: 20%;
+height: 40px;
+left: 40%;
+top: 330px;
 
 font-family: 'Roboto Slab';
 font-style: normal;
@@ -274,10 +167,10 @@ color: #57984C;
 }
 #ma_caption_3{
 position: absolute;
-width: 18%;
-height: 34px;
-left: 68%;
-top: 380px;
+width: 20%;
+height: 40px;
+left: 75%;
+top: 330px;
 
 font-family: 'Roboto Slab';
 font-style: normal;
@@ -288,10 +181,10 @@ color: #57984C;
 }
 #ma_text_4{
 position: absolute;
-width: 12%;
-height: 52px;
-left: 23%;
-top: 440px;
+width: 20%;
+height: 65px;
+left: 5%;
+top: 380px;
 
 font-family: 'Roboto Slab';
 font-style: normal;
@@ -303,10 +196,10 @@ color: #324950;
 }
 #ma_text_5{
 position: absolute;
-width: 12%;
-height: 52px;
-left: 45%;
-top: 440px;
+width: 20%;
+height: 65px;
+left: 40%;
+top: 380px;
 
 font-family: 'Roboto Slab';
 font-style: normal;
@@ -318,10 +211,10 @@ color: #324950;
 }
 #ma_text_3{
 position: absolute;
-width: 12%;
-height: 52px;
-left: 67%;
-top: 440px;
+width: 20%;
+height: 65px;
+left: 75%;
+top: 380px;
 
 font-family: 'Roboto Slab';
 font-style: normal;
@@ -331,18 +224,45 @@ line-height: 142.7%;
 text-align: center;
 color: #324950;
 }
+}
+@media (max-width: 1300px) {
+#head_links{
+position: absolute;
+/*width: 499px;*/
+width: 70%;
+height: 26px;
+/*left: 1016px;*/
+left: 25%;
+top: 91px;
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+text-align: right;
+color: #324950;
+}
 #footer_bottom{
 position: absolute;
 width: 100%;
-height: 127px;
+height: 250px;
 left: 0px;
-top: 2798px;
+top: 3000px;
+background: #324950;
+}
+#footer_bottom_small{
+position: absolute;
+width: 100%;
+height: 250px;
+left: 0px;
+top: 1798px;
 background: #324950;
 }
 #footer_top{
 position: absolute;
 width: 100%;
-height: 76px;
+height: 150px;
 left: 0px;
 top: 0px;
 
@@ -350,10 +270,10 @@ background: #2D3F45;
 }
 #footer_text{
 position: absolute;
-width: 18%;
-height: 20px;
-left: 45%;
-top: 95px;
+width: 25%;
+height: 50px;
+left: 40%;
+top: 190px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -364,9 +284,9 @@ color: #B9B9B9;
 }
 #footer_links{
 position: absolute;
-width: 55%;
+width: 90%;
 height: 26px;
-left:15%;
+left:10%;
 top: 28px;
 
 font-family: 'Roboto';
@@ -384,28 +304,23 @@ background: None;
 }
 #footer_links_img{
 position: absolute;
-width: 55%;
-height: 26px;
-left:75%;
-top: 28px;
-}
-#Tall_banner{
-position: absolute;
-width: 100%;
-top: 122px;
+width: 90%;
+height: 120px;
+left:30%;
+top: 95px;
 }
 #Tall_main{
 position: absolute;
 width: 100%;
 top: 402px;
-height: 2444px;
+height: 2744px;
 background: #FCF0F0;
 }
 #Tall_head{
 position: absolute;
-width: 60%;
+width: 90%;
 height: 63px;
-left: 25%;
+left: 5%;
 top: 51px;
 
 font-family: 'Roboto Slab';
@@ -417,8 +332,8 @@ color: #324950;
 }
 #Tall_text{
 position: relative;
-width: 60%;
-left: 20%;
+width: 90%;
+left: 5%;
 padding-left: 5%;
 top: 120px;
 padding-top: 25px;
@@ -434,14 +349,14 @@ color: #324950;
 position: absolute;
 width: 4px;
 height: 60px;
-left: 25%;
+left: 5%;
 top: 513.5px;
 background: #EB5757;
 }
 #Tall_readline1_text{
 position: absolute;
-width: 55%;
-left: 27%;
+width: 85%;
+left: 7%;
 top: 513.5px;;
 
 font-family: 'Roboto Slab';
@@ -453,9 +368,9 @@ color: #324950;
 }
 #Tall_box{
 position: absolute;
-width: 62%;
+width: 90%;
 height: 449.5px;
-left: 23%;
+left: 5%;
 top: 603.5px;
 
 background: #FFFAFA;
@@ -539,14 +454,14 @@ color: #324950;
 position: absolute;
 width: 4px;
 height: 40px;
-left: 25%;
+left: 5%;
 top: 1087.5px;
 background: #EB5757;
 }
 #Tall_readline2_text{
 position: absolute;
-width: 55%;
-left: 27%;
+width: 85%;
+left: 7%;
 top: 1087.5px;;
 
 font-family: 'Roboto Slab';
@@ -558,39 +473,16 @@ color: #324950;;
 }
 #Tall_images{
 position: absolute;
-width: 60%;
-left: 25%;
+width: 90%;
+left: 5%;
 top: 1125px;
 height: 1000px;
 }
-#Tall_image{
-width: 330px;
-height: 300px;
-position: relative;
-padding-left: 2%;
-padding-top: 2%;
-}
-#footer_bottom_small{
-position: absolute;
-width: 100%;
-height: 127px;
-left: 0px;
-top: 1798px;
-background: #324950;
-}
-#Tone_bg_1{
-position: absolute;
-width: 100%;
-height: 1648.05px;
-left: 0;
-top: 150px;
-background: #e9e9e9;
-}
 #Tone_bg_2{
 position: absolute;
-width: 76%;
+width: 100%;
 height: 1332.05px;
-left: 13%;
+left: 0%;
 top: 66.87px;
 background: url(../img/Union_1.png);
 }
@@ -605,7 +497,7 @@ top: 25px;
 position: absolute;
 width: 146px;
 height: 23px;
-left: 14%;
+left: 15%;
 top: 21px;
 
 font-family: 'Roboto Slab';
@@ -771,9 +663,9 @@ color: #324950;
 }
 #Tone_caption_4{
 position: absolute;
-width: 183px;
+width: 283px;
 height: 29px;
-left: 50%;
+left: 60%;
 top: 900px;
 
 font-family: 'Roboto Slab';
@@ -786,8 +678,8 @@ color: #57984C;
 #Tone_text_4{
 position: absolute;
 width: 35%;
-height: 84px;
-left: 48%;
+height: 100px;
+left: 58%;
 top: 950px;
 
 font-family: 'Roboto Slab';
@@ -799,9 +691,9 @@ color: #324950;
 }
 #Tone_caption_5{
 position: absolute;
-width: 183px;
+width: 283px;
 height: 29px;
-left: 50%;
+left: 60%;
 top: 1100px;
 
 font-family: 'Roboto Slab';
@@ -814,8 +706,8 @@ color: #57984C;
 #Tone_text_5{
 position: absolute;
 width: 35%;
-height: 84px;
-left: 50%;
+height: 100px;
+left: 60%;
 top: 1150px;
 
 font-family: 'Roboto Slab';
@@ -825,26 +717,11 @@ font-size: 17px;
 line-height: 162.7%;
 color: #324950;
 }
-#Cus_banner{
-position: absolute;
-width: 100%;
-height: 480px;
-left: 0px;
-top: 122px;
-}
-#Cus_bg{
-position: absolute;
-width: 100%;
-height: 900px;
-left: 0px;
-top: 602px;
-background: #e9e9e9;
-}
 #Cus_head{
 position: absolute;
 width: 221px;
 height: 63px;
-left: 25%;
+left: 5%;
 top: 50px;
 
 font-family: 'Roboto Slab';
@@ -864,202 +741,168 @@ color: #324950;
 }
 #Cus_caption1{
 position: absolute;
-width: 178px;
-height: 26px;
-left: 25%;
+width: 278px;
+height: 46px;
+left: 5%;
 top: 210.5px;
 }
 #Cus_input1{
 position: absolute;
-width: 20%;
+width: 40%;
 height: 30px;
-left: 25%;
+left: 5%;
 top: 236px;
 }
 #Cus_caption2{
 position: absolute;
-width: 178px;
-height: 26px;
-left: 25%;
+width: 278px;
+height: 46px;
+left: 5%;
 top: 300px;
 }
 #Cus_input2{
 position: absolute;
-width: 20%;
+width: 40%;
 height: 30px;
-left: 25%;
+left: 5%;
 top: 325px;
 }
 #Cus_caption3{
 position: absolute;
-width: 178px;
-height: 26px;
-left: 25%;
+width: 278px;
+height: 46px;
+left: 5%;
 top: 390px;
 }
 #Cus_input3{
 position: absolute;
-width: 20%;
+width: 40%;
 height: 30px;
-left: 25%;
+left: 5%;
 top: 415px;
 }
 #Cus_caption4{
 position: absolute;
-width: 178px;
-height: 26px;
-left: 25%;
+width: 278px;
+height: 46px;
+left: 5%;
 top: 480px;
 }
 #Cus_input4{
 position: absolute;
-width: 20%;
+width: 40%;
 height: 30px;
-left: 25%;
+left: 5%;
 top: 505px;
 }
 #Cus_caption5{
 position: absolute;
-width: 178px;
-height: 26px;
-left: 25%;
+width: 278px;
+height: 46px;
+left: 5%;
 top: 570px;
 }
 #Cus_input5{
 position: absolute;
-width: 20%;
+width: 40%;
 height: 30px;
-left: 25%;
+left: 5%;
 top: 595px;
 }
 #Cus_caption6{
 position: absolute;
-width: 178px;
-height: 26px;
-left: 25%;
+width: 278px;
+height: 46px;
+left: 5%;
 top: 660px;
 }
 #Cus_input6{
 position: absolute;
-width: 20%;
+width: 40%;
 height: 30px;
-left: 25%;
+left: 5%;
 top: 685px;
 }
 #Cus_caption7{
 position: absolute;
-width: 178px;
-height: 26px;
-left: 25%;
+width: 278px;
+height: 46px;
+left: 5%;
 top: 750px;
 }
 #Cus_input7{
 position: absolute;
-width: 20%;
+width: 40%;
 height: 30px;
-left: 25%;
+left: 5%;
 top: 775px;
 }
 #Cus_caption8{
 position: absolute;
-width: 178px;
-height: 26px;
+width: 278px;
+height: 46px;
 left: 55%;
 top: 210.5px;
 }
 #Cus_input8{
 position: absolute;
-width: 20%;
+width: 40%;
 height: 30px;
 left: 55%;
 top: 236px;
 }
 #Cus_caption9{
 position: absolute;
-width: 178px;
-height: 26px;
+width: 278px;
+height: 46px;
 left: 55%;
 top: 300px;
 }
 #Cus_input9{
 position: absolute;
-width: 20%;
+width: 40%;
 height: 30px;
 left: 55%;
 top: 325px;
 }
 #Cus_caption10{
 position: absolute;
-width: 178px;
-height: 26px;
+width: 278px;
+height: 46px;
 left: 55%;
 top: 390px;
 }
 #Cus_input10{
 position: absolute;
-width: 20%;
+width: 40%;
 height: 300px;
 left: 55%;
 top: 415px;
 }
 #Cus_caption11{
 position: absolute;
-width: 178px;
-height: 26px;
+width: 278px;
+height: 46px;
 left: 55%;
 top: 750px;
 }
 #Cus_input11{
 position: absolute;
-width: 5%;
-height: 30px;
-left: 61%;
+width: 20%;
+height: 50px;
+left: 66%;
 top: 775px;
 }
 #Cus_image11{
 position: absolute;
+width: 10%; 
+height: 50px;
 left: 55%;
 top: 775px
 }
 #Cus_button{
 position: absolute;
 left: 43%;
-top: 825px;
+top: 835px;
 }
-#Cus_address_head{
-position: absolute;
-width: 288px;
-height: 29px;
-left: 42%;
-top: 1550px;
-
-font-family: 'Roboto Slab';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 142.7%;
-text-align: center;
-color: #57984C
-}
-#Cus_address_line{
-position: absolute;
-width: 183px;
-height: 1px;
-left: 45%;
-top: 1590px;
-}
-#Cus_address_text{
-position: absolute;
-width: 288px;
-height: 29px;
-left: 42%;
-top: 1615px;
-
-font-family: 'Roboto Slab';
-font-style: normal;
-font-weight: 400;
-font-size: 17px;
-line-height: 150%;
-text-align: center;
-color: #324950;
 }

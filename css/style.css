@@ -4,6 +4,7 @@ fontfamily: Arial, Helvetica, sans-serif;
 text-align: left;
 font-size: 12px;
 overflow-x: hidden;
+width: 100%;
 }
 #main{
 width: 100%;

@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "http-server": "^14.1.0",
+    "jquery": "^3.6.0"
+  },
+  "name": "agridera",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/R0GUD?tab=repositories)"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

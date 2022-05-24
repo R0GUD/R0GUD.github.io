@@ -4,7 +4,7 @@ event.waitUntil(
     caches.open("static")
     .then(function(cache) {
         console.log("precaching");
-        cache.add('/index.html');
+        cache.addAll(['/index.html',]);
         cache.add('/');
         cache.add('/css/style.css');
         cache.add('/css/adaptive.css');
@@ -27,4 +27,9 @@ self.addEventListener('fetch', function(event) {
         }
         )
         );
+});
+
+self.addEventListener('push', event => {
+    const notification = event.data.text();
+    self.registration.showNotification(notification, {});
 });

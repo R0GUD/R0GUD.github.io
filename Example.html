@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Random Animals</title>
+    <link rel="stylesheet" href="css/example.css" />
+</head>
+
+<body>
+    <div class="results">
+        <div id="fox_result" class="result">
+            <p>Random Fox Placeholder</p>
+        </div>
+        <div id="dog_result" class="result">
+            <p>Random Dog Placeholder</p>
+        </div>
+    </div>
+    <div class="buttons">
+        <button id="fox_btn">Get Random Fox</button>
+        <button id="dog_btn">Get Random Dog</button>
+    </div>
+
+    <ul>
+        <div id="caps"></div>
+    </ul>
+
+    <script>
+        fetch("https://restcountries.com/v3.1/region/europe")
+            .then((resolve) => resolve.json())
+            .then((data) => {
+                const listOfCaps = document.createElement("ul");
+                listOfCaps.style.columnCount = "2";
+                listOfCaps.style.columnGap = "50px";
+                data.forEach((country) => {
+                    var listViewItem = document.createElement("li");
+                    listViewItem.appendChild(document.createTextNode(country.capital));
+                    listOfCaps.appendChild(listViewItem);
+                });
+                document.getElementById("caps").appendChild(listOfCaps);
+            });
+    </script>
+
+    <script src="js/example.js"></script>
+</body>
+
+</html>
